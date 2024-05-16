@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <head> 
+    <link rel="stylesheet" href="Estilo.css"> 
+    <title>HomePage - Van Zee</title>
+</head>
+   <style>    
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+      float: left;
+      width: 30%;
+     /* height: 300px; /* only for demonstration, should be removed */
+      background: #ccc;
+      padding: 20px;
+    }
+    
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: #f1f1f1;
+     /* height: 300px; /* only for demonstration, should be removed */
+    }
+    
+    /* Clear floats after the columns */
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+</style>
+<body>
+    <header>
+        <h1>Van Zee</h1>
+      </header>
+      <img src="imagens\DSC08610.jpg" style="float:right;">
+      <section>
+        <nav>
+          <ul>
+            <li><a href="Page 1.html">Mais sobre Van Zee</a></li>
+            <li><a href="https://linktr.ee/Vanzee">Perfis de Van Zee</a></li>
+            <li><a href="Page 2.html">Sobre o site</a></li>
+          </ul>
+        </nav>
+      </section>     
+      </body>
+</html> 
